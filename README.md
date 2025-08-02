@@ -1,27 +1,59 @@
-# Essentials
+# 📝 Easy Task Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+**Easy Task Manager** é um projeto Angular desenvolvido para fins de estudo, com a proposta de gerenciar tarefas. Trata-se de uma aplicação funcional, com foco em experiência do usuário e boas práticas de front-end moderno.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologias Utilizadas
 
-## Code scaffolding
+- [Angular 18](https://angular.io/)
+- TypeScript
+- HTML5 & CSS3
+- Vite (via Angular CLI)
+- Node.js & npm
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## ✨ Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Criar, listar e remover tarefas
+- Persistência temporária em memória
+- Feedback visual em tempo real
+- UI simples e direta, com responsividade básica
+- Arquitetura baseada em componentes standalone
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📸 Screenshots
 
-## Running end-to-end tests
+### 🗂️ Lista de Tarefas
+![User Tasks](src/assets/screenshots/1_user_tasks.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### ➕ Criando uma Nova Tarefa
+![Creating Task](src/assets/screenshots/2_creating_task.png)
 
-## Further help
+### ✅ Tarefa Adicionada com Sucesso
+![Task Added](src/assets/screenshots/3_task_added.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🛠️ Como Rodar o Projeto
+
+### Pré-requisitos
+
+- Node.js (v18 ou superior)
+- npm (v9 ou superior)
+
+### Instalação
+
+1. Instale as dependências com "npm install"
+
+2. Rode o projeto com "npm start"
+
+A aplicação estará disponível em http://localhost:4200.
+
+---
+
+## 💭 Considerações Finais
+
+Este projeto foi desenvolvido com Angular como parte de um portfólio pessoal, com foco em aprendizado e prática de desenvolvimento front-end moderno.
