@@ -5,11 +5,10 @@ import { type NewTaskData } from '../task/task.model';
 import { TasksService } from '../tasks.service';
 
 @Component({
-  selector: 'app-new-task',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './new-task.component.html',
-  styleUrl: './new-task.component.css',
+    selector: 'app-new-task',
+    imports: [FormsModule],
+    templateUrl: './new-task.component.html',
+    styleUrl: './new-task.component.css'
 })
 export class NewTaskComponent {
   @Input({ required: true }) userId!: string;
