@@ -6,7 +6,7 @@
 
 ## 🚀 Tecnologias Utilizadas
 
-- [Angular 18](https://angular.io/)
+- [Angular 20](https://angular.io/)
 - TypeScript
 - HTML5 & CSS3
 - Vite (via Angular CLI)
